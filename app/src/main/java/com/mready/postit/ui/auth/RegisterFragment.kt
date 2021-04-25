@@ -135,7 +135,7 @@ class RegisterFragment : Fragment() {
             userName.isEmpty() -> editText_userName.error = Constants.EmptyError
             password.isEmpty() -> editText_Password.error = Constants.EmptyError
             repeatPassword.isEmpty() -> editText_RepeatPassword.error = Constants.EmptyError
-            password.length > 6 -> editText_Password.error = Constants.PasswordLength
+            password.length < 6 -> editText_Password.error = Constants.PasswordLength
             password != repeatPassword -> editText_Password.error = Constants.MatchingPasswordError
 
 
