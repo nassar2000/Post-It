@@ -14,10 +14,12 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="28dp"
         android:background="@android:color/transparent"
-        android:hint="Type your message..."
+        android:hint="@string/type_your_message"
+        android:inputType="text"
         android:padding="40dp"
         android:textColorHint="@android:color/white"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:autofillHints="EnterMessage" />
 
     <Button
         android:id="@+id/button_sendMessage"
@@ -25,7 +27,7 @@
         android:layout_height="wrap_content"
         android:background="@color/button_start_color"
         android:padding="24dp"
-        android:text="Submit"
+        android:text="@string/submit"
         android:textColor="@android:color/white"
         app:layout_constraintBottom_toBottomOf="parent" />
 

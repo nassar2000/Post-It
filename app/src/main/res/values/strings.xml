@@ -8,6 +8,7 @@
     <string name="password">password</string>
     <string name="this_is_my_user_name">this is my user name</string>
     <string name="welcome_account">Welcome back! \nLogin to your account.</string>
+    <string name="contentDescription">logo</string>
 
     <!-- register Fragment -->
     <string name="title_register_fragment">Enter your details and you are \nready to go!</string>
@@ -21,4 +22,12 @@
     <string name="outputDtatTime">h:mm, d MMM yyyy</string>
     <string name="authorization">Authorization</string>
     <string name="feedFragment">FeedFragment</string>
+
+    <!-- add new post Fragment -->
+    <string name="type_your_message">Type your message...</string>
+    <string name="submit">Submit</string>
+
+    <!-- feed Fragment -->
+    <string name="add_post">ADD POST</string>
+
 </resources>

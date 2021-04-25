@@ -130,8 +130,8 @@ class LoginFragment : Fragment() {
         val password = textView_password.text.toString()
 
         when {
-            userName.isEmpty() -> editText_userName.error = Constants.EmptyError
-            password.isEmpty() -> editText_Password.error = Constants.EmptyError
+            userName.isEmpty() -> textView_Username.error = Constants.EmptyError
+            password.isEmpty() -> textView_password.error = Constants.EmptyError
 
             else -> {
 
