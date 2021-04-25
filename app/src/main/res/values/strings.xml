@@ -1,3 +1,23 @@
 <resources>
     <string name="app_name">Post it</string>
+
+    <!-- Login Fragment -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="new_here_create_an_account"><u>New here? Create an account!</u></string>
+    <string name="login">Login</string>
+    <string name="password">password</string>
+    <string name="this_is_my_user_name">this is my user name</string>
+    <string name="welcome_account">Welcome back! \nLogin to your account.</string>
+
+    <!-- register Fragment -->
+    <string name="title_register_fragment">Enter your details and you are \nready to go!</string>
+    <string name="full_name">full name</string>
+    <string name="username">username</string>
+    <string name="repeat_password">repeat password</string>
+    <string name="create_account_button">Create account</string>
+    <string name="LoginFragment">LoginFragment</string>
+    <string name="inputDtatTime">yyyy-MM-dd\'T\'HH:mm:ss\'+\'SSSS</string>
+    <string name="outputDtatTime">h:mm, d MMM yyyy</string>
+    <string name="authorization">Authorization</string>
+    <string name="feedFragment">FeedFragment</string>
 </resources>

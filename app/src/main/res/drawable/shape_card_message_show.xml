@@ -1,0 +1,19 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:bottom="@dimen/button_type_auth_padding_bottom"
+        android:top="@dimen/button_type_auth_padding_top">
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/button_type_auth_radius"/>
+            <gradient
+                android:angle="@integer/button_type_auth_gradient_angle"
+                android:endColor="@color/purple_500"
+                android:startColor="@color/purple_500"
+                android:type="linear"/>
+            <padding
+                android:bottom="0dp"
+                android:left="@dimen/button_type_auth_padding"
+                android:right="@dimen/button_type_auth_padding"
+                android:top="0dp"/>
+        </shape>
+    </item>
+</layer-list>
