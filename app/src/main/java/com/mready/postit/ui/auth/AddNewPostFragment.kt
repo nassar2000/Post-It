@@ -90,8 +90,7 @@ class AddNewPostFragment : Fragment() {
                     activity?.supportFragmentManager?.beginTransaction()
                         ?.replace(
                             R.id.frameLayout_homePage,
-                            FeedFragment.newInstance(),
-                            FeedFragment.toString()
+                            FeedFragment.newInstance()
                         )
                         ?.commit()
 

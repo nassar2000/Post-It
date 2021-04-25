@@ -63,12 +63,12 @@ class FeedFragment : Fragment() {
         getMessage()
         button_AddPost.setOnClickListener {
             activity?.supportFragmentManager?.beginTransaction()
-                ?.replace(
+                ?.add(
                     R.id.frameLayout_homePage,
                     AddNewPostFragment.newInstance(),
                     AddNewPostFragment.toString()
                 )
-                ?.addToBackStack(getString(R.string.LoginFragment))
+                ?.addToBackStack(getString(R.string.feedFragment))
                 ?.commit()
         }
 
