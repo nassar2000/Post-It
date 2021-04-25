@@ -33,7 +33,7 @@
         android:textColorHint="@color/white" />
 
     <EditText
-        android:id="@+id/editText_userName"
+        android:id="@+id/editText_userName_register"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
@@ -48,7 +48,7 @@
         android:textColorHint="@color/white" />
 
     <EditText
-        android:id="@+id/editText_Password"
+        android:id="@+id/editText_Password_register"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
@@ -63,7 +63,7 @@
         android:textColorHint="@color/white" />
 
     <EditText
-        android:id="@+id/editText_RepeatPassword"
+        android:id="@+id/editText_RepeatPassword_register"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"

@@ -126,24 +126,24 @@ class RegisterFragment : Fragment() {
     private fun verificationDataAndSubmit() {
 
         val fullName = editText_fullName.text.toString()
-        val userName = editText_userName.text.toString()
-        val password = editText_Password.text.toString()
-        val repeatPassword = editText_RepeatPassword.text.toString()
+        val userName = editText_userName_register.text.toString()
+        val password = editText_Password_register.text.toString()
+        val repeatPassword = editText_RepeatPassword_register.text.toString()
 
         when {
             fullName.isEmpty() -> editText_fullName.error = Constants.EmptyError
-            userName.isEmpty() -> editText_userName.error = Constants.EmptyError
-            password.isEmpty() -> editText_Password.error = Constants.EmptyError
-            repeatPassword.isEmpty() -> editText_RepeatPassword.error = Constants.EmptyError
-            password.length < 6 -> editText_Password.error = Constants.PasswordLength
-            password != repeatPassword -> editText_Password.error = Constants.MatchingPasswordError
+            userName.isEmpty() -> editText_userName_register.error = Constants.EmptyError
+            password.isEmpty() -> editText_Password_register.error = Constants.EmptyError
+            repeatPassword.isEmpty() -> editText_RepeatPassword_register.error = Constants.EmptyError
+            password.length < 6 -> editText_Password_register.error = Constants.PasswordLength
+            password != repeatPassword -> editText_Password_register.error = Constants.MatchingPasswordError
 
 
             else -> {
 
                 register(
-                    editText_userName.text.toString(),
-                    editText_Password.text.toString(),
+                    editText_userName_register.text.toString(),
+                    editText_Password_register.text.toString(),
                     editText_fullName.text.toString()
                 )
 

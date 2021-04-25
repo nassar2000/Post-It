@@ -126,16 +126,16 @@ class LoginFragment : Fragment() {
 
     private fun verificationDataAndSubmit() {
 
-        val userName = textView_Username.text.toString()
-        val password = textView_password.text.toString()
+        val userName = textView_Username_login.text.toString()
+        val password = textView_password_login.text.toString()
 
         when {
-            userName.isEmpty() -> textView_Username.error = Constants.EmptyError
-            password.isEmpty() -> textView_password.error = Constants.EmptyError
+            userName.isEmpty() -> textView_Username_login.error = Constants.EmptyError
+            password.isEmpty() -> textView_password_login.error = Constants.EmptyError
 
             else -> {
 
-                login(textView_Username.text.toString(), textView_password.text.toString())
+                login(textView_Username_login.text.toString(), textView_password_login.text.toString())
 
 
             }
