@@ -13,13 +13,14 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="28dp"
+        android:autofillHints="EnterMessage"
         android:background="@android:color/transparent"
         android:hint="@string/type_your_message"
         android:inputType="text"
         android:padding="40dp"
+        android:textColor="@android:color/white"
         android:textColorHint="@android:color/white"
-        app:layout_constraintTop_toTopOf="parent"
-        android:autofillHints="EnterMessage" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/button_sendMessage"
